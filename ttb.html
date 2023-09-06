@@ -1,0 +1,393 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<head>
+<title>HTML Style Guide and Coding Conventions</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    
+    <!--zafr-->
+    
+    
+<meta name="Keywords" content="HTML, Python, CSS, SQL, JavaScript, How to, PHP, Java, C, C++, C#, jQuery, Bootstrap, Colors, W3.CSS, XML, MySQL, Icons, NodeJS, React, Graphics, Angular, R, AI, Git, Data Science, Code Game, Tutorials, Programming, Web Development, Training, Learning, Quiz, Exercises, Courses, Lessons, References, Examples, Learn to code, Source code, Demos, Tips, Website">
+<meta name="Description" content="Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.">
+<meta property="og:image" content="https://www.w3schools.com/images/w3schools_logo_436_2.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="436">
+<meta property="og:image:height" content="228">
+<meta property="og:description" content="W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.">
+     <!--add favicon-->
+<link rel="icon" href="https://www.w3schools" type="image/x-icon">
+   
+    
+ <!--important css code link-->
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3schools32.css">
+
+
+
+
+<!--new collapse sidebar css-->
+<style>
+  /* Sidebar styles */
+#leftmenuinnerinner {
+    height: 100%;
+    width: 250px; /* Adjust the width as needed */
+    background-color: #daecff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: fixed;
+    top: 100px; /* Add a 100px gap at the top */
+    left: -250px; /* Initially hidden */
+    transition: left 0.3s ease-in-out;
+}
+
+
+  /* Sticky button styles */
+  #toggleButton {
+    position: fixed;
+    top: 50%; /* Vertically centered */
+    left: 0;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1; /* Place it above the sidebar */
+  }
+
+  /* Show the button on hover */
+  #toggleButton:hover {
+    transform: translateX(0);
+  }
+     
+
+  /* Style the link */
+  .centered-text {
+    text-decoration: underline;
+    color: blue; 
+text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: block;
+      font-size: 20px;
+   
+    
+  }
+    .centered-text-head{
+    
+   font color: red;
+text-align: center;
+     font-family: "Segoe UI",Arial,sans-serif;
+    
+    display: block;
+      font-size: 30px;  
+        
+    }
+</style>
+<style>
+img.viewport {
+   border:10px solid #f1f1f1;
+   border-radius:3px;
+}
+</style>
+    
+</head>
+    
+<body>
+<!--top header typing tube-->
+<div id="pagetop" class="w3-bar notranslate w3-white" style="position:fixed;padding-left:1px;padding-right:16px"> <b>Typing Tube</b>
+  <a href="" class="w3-bar-item w3-button w3-hover-none w3-left ga-top ga-top-w3home" title="Home" style="width:75px;">
+    <i class="fas fa-keyboard ws-hover-text-green" style="position:relative;z-index:1;color:blue;font-size:36px!important;"></i> 
+  </a>
+
+  <div class="w3-right w3-white" style="padding-top:8px;padding-bottom:8px;">
+    
+  </div>
+</div>
+<!--new collapse sidebar html-->
+    <div id="toggleButton" onclick="toggleSidebar()">&#9776; Tests</div>
+  
+  <!-- Sidebar content -->
+  <div id="leftmenuinnerinner">
+    <!-- Your sidebar content here -->
+<div class="center-container">
+      <p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p>
+    <p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+    
+  
+    <p class="centered-text-head">Medium Mode</p>
+
+    
+    <p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p><p class="centered-text"><a href="https://example.com">Test 1</a></p>
+      <p class="centered-text"><a href="https://example.com">Test 2</a></p>
+     
+  </div>
+    </div>
+    <!--new collapse sidebar script-->
+  <script>
+    const sidebar = document.getElementById('leftmenuinnerinner');
+    const toggleButton = document.getElementById('toggleButton');
+    let isSidebarVisible = false;
+
+    // Function to toggle sidebar visibility
+    function toggleSidebar() {
+      if (isSidebarVisible) {
+        sidebar.style.left = '-250px'; // Hide the sidebar
+      } else {
+        sidebar.style.left = '0'; // Show the sidebar
+      }
+      isSidebarVisible = !isSidebarVisible;
+    }
+  </script>
+   
+
+  
+
+   
+
+   
+
+   
+
+<script>
+(
+function setThemeMode() {
+  var x = localStorage.getItem("preferredmode");
+  var y = localStorage.getItem("preferredpagemode");  
+  if (x == "dark") {
+    document.body.className += " darktheme";
+  }
+  if (y == "dark") {
+    document.body.className += " darkpagetheme";
+  }
+})();
+</script>
+    <!--Important style zfr-->
+<style>
+    
+#subtopnav {
+  position:fixed;
+  background-color: #282A35;
+  color:#f1f1f1;
+  padding:0;
+  letter-spacing:1px;
+  font-family: 'Source Sans Pro Topnav', sans-serif;
+  font-size:0;
+  top:56px;
+  z-index:2;
+  width:100%;
+  white-space:nowrap;
+  overflow:auto;
+  scrollbar-width: none;
+}
+#subtopnav a{
+  display:inline-block;
+  width:auto;
+  margin:0!important;
+  padding:5px 15px 5px 15px !important;
+  font-size:15px!important;
+  text-decoration: none;  
+  line-height: 1.5;
+    background-color: cornflowerblue;
+}
+#subtopnav a:hover,#subtopnav a:focus,#subtopnav a:active{
+  background-color:#000000 !important;
+  color:#ffffff !important;
+}
+#subtopnav a.active{
+  background-color: #04AA6D!important;
+  color:#fff!important;  
+}
+#btn_container_subtopnav {
+  position:fixed;
+  right:0;
+  top:56px;
+  font-size:0;
+  border-left:10px solid rgba(40, 42, 53,0.5);
+  
+}
+#btn_container_subtopnav a{
+  line-height:1.3!important;
+  padding-top:7px!important;
+  padding-bottom:6px!important; 
+  font-size:15px;
+  background-color:#282A35;  
+}
+#scroll_left_btn {
+  cursor:pointer;
+  display:none;
+  position:fixed;
+  left:0;
+  top:56px;
+  font-size: 15px;
+  border-right: 10px solid rgba(40, 42, 53,0.5);
+  background: red;
+  }
+#scroll_left_btn span {
+  background-color:#282A35;
+  background: linear-gradient(to right, #282A35 70%, transparent 100%);
+  display:block;
+  padding-top:5px;
+  padding-bottom:5px;  
+}
+#scroll_left_btn span:hover {
+  background: linear-gradient(to right, #000 95%, transparent 100%);
+}
+#scroll_right_btn {
+  cursor:pointer;
+  float:left;
+  font-size:15px;
+  background-color:#282A35;
+  background: linear-gradient(to left, #282A35 70%, transparent 100%);
+  
+  padding-top:5px;
+  padding-bottom:5px;  
+}
+#scroll_right_btn:hover {
+  background: linear-gradient(to left, #000 95%, transparent 100%);
+}
+#menubtn_container {
+  position:fixed;
+  left:0;
+  top:56px;
+  border-right:10px solid rgba(40, 42, 53,0.5);
+  height:33px;
+  color:white;
+  font-size:15px;
+}
+#menubtn_container span {
+  background-color:#282A35;  
+}
+#darkmodemenu {
+  position:fixed!important;
+  right:0;!important;  
+}
+#subtopnav::-webkit-scrollbar {
+  display:none!important;
+}
+
+@media screen and (max-width: 992px){
+  #subtopnav a.subtopnav_firstitem {
+    margin-left:0px!important;
+  }
+
+
+
+</style>
+
+    <!--topscroll bar-->
+<div id="subtopnav" onmousedown="startscrolling_subtopnav(event)" onmousemove="scrolling_subtopnav(event)" onmouseup="endscrolling_subtopnav(event)" onclick="return pellessii(event)">
+  <div id="scroll_left_btn" class="w3-hide-medium w3-hide-small">
+    <span onmousedown="scrollmenow(-1)" onmouseup="stopscrollmenow()" onmouseout="stopscrollmenow()">&nbsp;&nbsp;&nbsp;&#10094;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+     
+ 
+  <a href="https://www.w3schools.com/html/default.asp" class="ga-nav subtopnav_firstitem" title="HTML Tutorial">HTML</a>
+  <a href="https://www.w3schools.com/css/default.asp" class="ga-nav" title="CSS Tutorial">CSS</a>
+  <a href="https://www.w3schools.com/js/default.asp" class="ga-nav" title="JavaScript Tutorial">JAVASCRIPT</a>
+  <a href="https://www.w3schools.com/sql/default.asp" class="ga-nav" title="SQL Tutorial">SQL</a>
+  <a href="https://www.w3schools.com/python/default.asp" class="ga-nav" title="Python Tutorial">PYTHON</a>
+  <a href="https://www.w3schools.com/java/default.asp" class="ga-nav" title="Java Tutorial">JAVA</a>
+  <a href="https://www.w3schools.com/php/default.asp" class="ga-nav" title="PHP Tutorial">PHP</a>
+  <a href="https://www.w3schools.com/howto/default.asp" class="ga-nav" title="How to">HOW TO</a>
+  <a href="https://www.w3schools.com/w3css/default.asp" class="ga-nav" title="W3.CSS Tutorial">W3.CSS</a>
+  <a href="https://www.w3schools.com/c/index.php" class="ga-nav" title="C Tutorial">C</a>
+  <a href="https://www.w3schools.com/cpp/default.asp" class="ga-nav" title="C++ Tutorial">C++</a>
+  <a href="https://www.w3schools.com/cs/index.php" class="ga-nav" title="C# Tutorial">C#</a>
+  <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" class="ga-nav" title="Bootstrap Tutorial">BOOTSTRAP</a>
+  <a href="https://www.w3schools.com/react/default.asp" class="ga-nav" title="React Tutorial">REACT</a>
+  <a href="https://www.w3schools.com/mysql/default.asp" class="ga-nav" title="MySQL Tutorial">MYSQL</a>
+  <a href="https://www.w3schools.com/jquery/default.asp" class="ga-nav" title="JQuery Tutorial">JQUERY</a>
+  <a href="https://www.w3schools.com/excel/index.php" class="ga-nav" title="Excel Tutorial">EXCEL</a>
+  <a href="https://www.w3schools.com/xml/default.asp" class="ga-nav" title="XML Tutorial">XML</a>
+  <a href="https://www.w3schools.com/django/index.php" class="ga-nav" title="Django Tutorial">DJANGO</a>
+  <a href="https://www.w3schools.com/nodejs/default.asp" class="ga-nav" title="Node.js Tutorial">NODEJS</a>
+  <a href="https://www.w3schools.com/r/default.asp" class="ga-nav" title="R Tutorial">R</a>
+  <a href="https://www.w3schools.com/typescript/index.php" class="ga-nav" title="TypeScript Tutorial">TYPESCRIPT</a>
+  <a href="https://www.w3schools.com/angular/default.asp" class="ga-nav" title="Angular.js Tutorial">ANGULAR</a>
+  <a href="https://www.w3schools.com/git/default.asp" class="ga-nav" title="Git Tutorial">GIT</a>
+  <a href="https://www.w3schools.com/postgresql/index.php" class="ga-nav" title="PostgreSQL Tutorial">POSTGRESQL</a>
+  <a href="https://www.w3schools.com/mongodb/index.php" class="ga-nav" title="MongoDB Tutorial">MONGODB</a>
+  <a href="https://www.w3schools.com/asp/default.asp" class="ga-nav" title="ASP Tutorial">ASP</a>
+  <a href="https://www.w3schools.com/aws/index.php" class="ga-nav" title="AWS Tutorial">AWS</a>
+  <a href="https://www.w3schools.com/ai/default.asp" class="ga-nav" title="A.I. Tutorial">AI</a>
+  <a href="https://www.w3schools.com/go/index.php" class="ga-nav" title="Go Tutorial">GO</a>
+ 
+ 
+  
+    
+    
+    
+    
+  <div id="btn_container_subtopnav">
+    <div id="scroll_right_btn" class="w3-hide-medium w3-hide-small">
+ 
+      <span onmousedown="scrollmenow(1)" onmouseup="stopscrollmenow()" onmouseout="stopscrollmenow()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10095;&nbsp;&nbsp;&nbsp;</span>
+    </div>
+  
+  </div>
+ 
+ 
+ 
+</div>
+<!--Important-->
+<script>
+subtopnav_intoview();
+
+</script>
+
+
+
+
+    <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
+
+  <div class='w3-row w3-white'>
+    
+    <div class='w3-col l10 m12' id='main'>
+      <div id='mainLeaderboard' style='overflow:hidden;'>
+       
+        <div id="adngin-main_leaderboard-0"></div>
+          
+        <!-- adspace leaderboard -->
+
+      </div>
+
+<!--//zfr typing test website-->
+
+
+    
+    
+    
+    
+    
+ 
+  
+
+ 
+      </div></div></div>
+    
+    </body>
+    
+</html>
+
+     
